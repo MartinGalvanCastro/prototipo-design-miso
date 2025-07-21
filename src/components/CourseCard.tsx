@@ -49,7 +49,6 @@ function CourseCard({ course, onViewDetails }: CourseCardProps): ReactElement {
 								: 'group-hover:scale-110'
 						}`}
 					/>
-					<div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
 					{course.isComingSoon && (
 						<div className="absolute top-2 right-2 bg-muted/90 text-muted-foreground px-2 py-1 rounded-md text-xs font-medium">
 							Próximamente

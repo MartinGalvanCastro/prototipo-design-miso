@@ -53,7 +53,7 @@ function PricingCard({
 			)}
 			<Card className={cn(
 				'w-full max-w-sm transition-shadow duration-200 hover:shadow-lg',
-				isPopular && 'border-primary bg-gradient-to-b from-card to-accent/10',
+				isPopular && 'border-primary',
 				className
 			)}>
 				<CardHeader className="text-center pb-8">
